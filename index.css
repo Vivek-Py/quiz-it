@@ -1,0 +1,57 @@
+body {
+  background: var(--black) !important;
+}
+
+.navbar {
+  margin-top: -2rem;
+}
+
+.nav-brand,
+.nav-item {
+  color: var(--white);
+}
+
+.grid-3 {
+  justify-items: center;
+}
+
+.card-wrapper {
+  background: var(--white);
+}
+
+.text-md {
+  padding-bottom: 0;
+  margin-top: 1.5rem;
+}
+
+.text-md.rules {
+  color: var(--white);
+}
+
+.white {
+  color: var(--white);
+}
+
+.card-wrapper {
+  border-radius: 20px;
+}
+
+.quiz-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  overflow: hidden;
+
+  margin: auto;
+}
+.quiz-header {
+  padding: 4rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}

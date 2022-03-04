@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizIT</title>
+    <link rel="stylesheet" href="https://ui-slayer.vercel.app/index.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/35549b5c74.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Top section for the header and navigation -->
+    <header class="navbar row">
+      <a
+        class="nav-brand h2 center-text"
+        href="./index.html"
+        rel="noopener noreferrer"
+        >QuizIT</a
+      >
+      <div class="nav row justify-end">
+        <a class="nav-item h2" href="./mcq.html" rel="noopener noreferrer">
+          Play MCQ
+        </a>
+        <a class="nav-item h2" href="./playbook.html" rel="noopener noreferrer">
+          Playbook
+        </a>
+        <a class="nav-item h2" href="./result.html" rel="noopener noreferrer">
+          Result
+        </a>
+      </div>
+    </header>
+
+    <!-- Aside and primary section -->
+    <main class="main-section">
+      <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+          <h2 class="h2" id="question">Question Text</h2>
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="a" class="answer" />
+              <label class="text-sm" for="a" id="a_text">Answer</label>
+            </li>
+
+            <li>
+              <input type="radio" name="answer" id="b" class="answer" />
+              <label class="text-sm" for="b" id="b_text">Answer</label>
+            </li>
+
+            <li>
+              <input type="radio" name="answer" id="c" class="answer" />
+              <label class="text-sm" for="c" id="c_text">Answer</label>
+            </li>
+
+            <li>
+              <input type="radio" name="answer" id="d" class="answer" />
+              <label class="text-sm" for="d" id="d_text">Answer</label>
+            </li>
+          </ul>
+        </div>
+        <button class="primary-btn" id="submit">Next &rightarrow;</button>
+      </div>
+    </main>
+  </body>
+</html>
